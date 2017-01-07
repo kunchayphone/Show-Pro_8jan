@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Show Pro</string>
+
+    <string name="TitleMain">โปรดเลือกค่ายมือถือ</string>
+    <string name="TitleShowPro">โปรอินเตอร์เน็ต</string>
+
+</resources>

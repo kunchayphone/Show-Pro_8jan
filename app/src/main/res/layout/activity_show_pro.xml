@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_show_pro"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context="pronetsimthai.app.kunchay.showpro.ShowPro"
+    android:background="@drawable/bg2">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/LivPromotion"
+        android:background="#82f8f1f1"
+        android:layout_below="@+id/LinTop"
+        android:layout_above="@+id/button" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LinTop"
+        android:gravity="center_vertical|center_horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            app:srcCompat="@drawable/ais_logo"
+            android:id="@+id/imageView4"
+            android:layout_height="@dimen/icon_small" />
+
+        <TextView
+            android:text="@string/TitleShowPro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:textSize="@dimen/h1"
+            android:textColor="@color/aText" />
+    </LinearLayout>
+
+    <Button
+        android:text="Back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>
